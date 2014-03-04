@@ -6,7 +6,7 @@ module Plot
     def add_html(script)
       header = File.read("header.html")
       footer = File.read("footer.html")
-      puts header + script + footer
+      puts header + script + footer #change this: return instead
     end
   end
   
